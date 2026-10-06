@@ -149,6 +149,7 @@ const pricingUrls: Record<string, string> = {
   "ClickUp": "https://clickup.com/pricing",
   "Discord": "https://discord.com/nitro",
   "Slack": "https://slack.com/pricing",
+  "TermiGram": "https://termigram.com/#plans",
   "Sanity": "https://www.sanity.io/pricing",
   "Contentful": "https://www.contentful.com/pricing/",
   "Storyblok": "https://www.storyblok.com/pricing",
@@ -284,6 +285,7 @@ const resourceCatalog: Omit<Resource, "slug" | "pricingUrl" | "freeTier" | "acce
   { name: "Have I Been Pwned", url: "https://haveibeenpwned.com/API/v3", category: "security", tags: ["breaches", "api", "passwords"], description: { en: "Check accounts and domains against known data breaches through an API.", es: "Comprueba cuentas y dominios frente a filtraciones conocidas mediante API." } },
 
   // Collaboration
+  { name: "TermiGram", url: "https://termigram.com", faviconFile: "https://termigram.com/assets/brand/termigram-mark.png", category: "collaboration", tags: ["ssh", "sftp", "telegram"], description: { en: "SSH terminal and SFTP file management inside Telegram for servers you own or are authorized to manage.", es: "Terminal SSH y gestión de archivos SFTP dentro de Telegram para servidores propios o que tienes autorización para administrar." } },
   { name: "Linear", url: "https://linear.app", category: "collaboration", featured: true, tags: ["issues", "roadmap", "product"], description: { en: "Fast issue tracking, cycles and product roadmaps for software teams.", es: "Issues, ciclos y roadmaps rápidos para equipos de software." } },
   { name: "Notion", url: "https://www.notion.so", category: "collaboration", tags: ["docs", "wiki", "projects"], description: { en: "Connected docs, wikis, databases and lightweight project management.", es: "Documentos, wikis, bases de datos y gestión ligera de proyectos." } },
   { name: "Trello", url: "https://trello.com", category: "collaboration", tags: ["kanban", "tasks", "boards"], description: { en: "Visual Kanban boards for organizing projects and team workflows.", es: "Tableros Kanban visuales para organizar proyectos y workflows." } },
